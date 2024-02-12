@@ -8,8 +8,6 @@
     list-style: none;
 }
 
- 
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #1b1726;
@@ -30,8 +28,8 @@ img {
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 100%;
-    padding: 300px 0;
+    min-height: 80vh;
+    padding: 80px 0;
 }
 
 .menu {
@@ -45,9 +43,10 @@ img {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-   
+    color: #ff5A2C;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .menu .navbar ul li {
@@ -70,7 +69,7 @@ img {
 }
 
 .menu-icono {
-    width: 30%;
+    width: 25px;
 }
 
 .menu label {
@@ -83,7 +82,7 @@ img {
 } 
 
 .header-txt {
-    flex-basis: 100%;
+    flex-basis: 50%;
 }
 
 .header-txt h1 {
@@ -91,7 +90,6 @@ img {
     color: #ffffff;
     line-height: 1.3;
     margin-bottom: 25px;
-    scroll-snap-stop: 70px;
 
 }
 

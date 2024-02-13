@@ -249,7 +249,8 @@ input {
     }
 
     .menu {
-        padding: 20px;      
+        padding: 20px;
+        width: 950px;
     }
 
     .menu label {

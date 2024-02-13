@@ -128,14 +128,27 @@ img {
 
 h2 {
     color: #FFFFFF;
-    font-size: 35px;
-    margin-bottom: 45px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.enca h2 span {
+    color: #ff5A2C;
+    
+}
+
+.enca p {
+    color: #ff5A2C;
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 
 .popular-content {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .popular-content img {
     width: 150px;
@@ -265,6 +278,7 @@ input {
     }
     
     
+    
 
     #menu:checked ~ .navbar {
         display: initial;
@@ -280,22 +294,37 @@ input {
         flex-basis: 100%;
     }
     .header-txt h1 {
-        font-size: 50px;
+        font-size: 25px;
+        margin-bottom: 15px;
+        padding: 25px 0;   
+    }
+    .header-txt P {
+        font-size: 10px;
         margin-bottom: 15px;
         padding: 25px 0;   
     }
 
     .butons {
-        justify-content: center;
+        justify-content: center;    
     }
-
+    
 
     .btn-1:last-of-type {
-        margin-right: 0;
+        margin-right: 0;       
+    }
+    .btn-1, .btn-2, .btn-3 {
+        display: inline-block;
+        padding: 2px 13px;
+        border: 2px solid #ff5a2c;
+        border-radius: 25px;
+        margin-right: 25px;
+        font-size: 10px;
+        color: #FFFFFF;
     }
 
     .popular {
         display: none;
+        
     }
 
     .product {

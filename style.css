@@ -106,6 +106,7 @@ img {
 
 .butons {
     display: flex;
+    
 }
 .btn-1, .btn-2, .btn-3 {
     display: inline-block;
@@ -142,8 +143,8 @@ h2 {
 
 .product-content {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 50px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
 }
 .product-1 {
     background-color: #2a223a;
@@ -262,6 +263,8 @@ input {
     .menu .navbar ul li {
         width: 100%;
     }
+    
+    
 
     #menu:checked ~ .navbar {
         display: initial;
@@ -277,21 +280,18 @@ input {
         flex-basis: 100%;
     }
     .header-txt h1 {
-        font-size: 25px;
+        font-size: 50px;
         margin-bottom: 15px;
         padding: 25px 0;   
     }
 
-    .botons {
-        justify-content: safe;
-        
+    .butons {
+        justify-content: center;
     }
 
 
     .btn-1:last-of-type {
         margin-right: 0;
-        
-
     }
 
     .popular {
@@ -303,8 +303,8 @@ input {
     }
 
     .product-content {
-        grid-template-columns: repeat(2,minmax(200px,1fr));
-        gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
     }
 
     .product-1 img {

@@ -9,8 +9,6 @@
     
 }
 
- 
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #1b1726;
@@ -26,17 +24,13 @@ img {
 }
 .header {
     background-image: url(PAINT/DSCN0514.JPG);
-    background-position: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 100%;
-    padding: 300px 0;
-    zoom: 1;
-    max-height: 100%;
-    max-width: 4000px;
-    display: grid;
+    min-height: 80vh;
+    padding: 80px 0;
     
 }
 
@@ -49,12 +43,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   
 }
 
 
 .logo {
     height: 100px;
+    color: #ff5A2C;
    
 }
 
@@ -91,18 +87,15 @@ img {
 } 
 
 .header-txt {
-    flex-basis: 100px;
-    align-items: center;
-    
-    
+    flex-basis: 50%;
 }
 
 .header-txt h1 {
     font-size: 60px;
     color: #ffffff;
     line-height: 1.3;
-    margin-bottom: 50px;
-    scroll-snap-stop: 70px;
+    margin-bottom: 25px;
+    
 
 }
 
@@ -125,7 +118,7 @@ img {
     padding: 11px 35px;
     border: 2px solid #ff5a2c;
     border-radius: 25px;
-    margin-right: 255px;
+    margin-right: 25px;
     font-size: 17px;
     color: #FFFFFF;
 }
@@ -251,12 +244,12 @@ input {
 
 @media(max-width:900px) {
 
-    
+    html {
+        width: min-content;
+    }
 
     .menu {
-        padding: 20px;
-        width: 1000px;       
-        
+        padding: 20px;      
     }
 
     .menu label {
@@ -285,8 +278,8 @@ input {
     }
 
     .header {
-        min-height: 100%;
-        padding: 200px 1200px 50px 50px;
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
     }
 
     .header-txt {
@@ -331,7 +324,6 @@ input {
     input {
         margin: 0 0 20px 0;
     }
-
     .footer {
         flex-direction: column;
         text-align: center;
@@ -340,76 +332,3 @@ input {
         margin-top: 20px;
     }
 }
-
-@media /*movil*/
-@media screen and (max-width: 4000px) {
-    body {
-        zoom: 2;
-    }
-}
-
-@media screen and (min-width: 3840px) {
-    body {
-        zoom: 1.5;
-    }
-}
-
-@media screen and (max-width: 3000px) {
-    body {
-        zoom: 1.3;
-    }
-}
-
-@media screen and (max-width: 2560px) {
-    body {
-        zoom: 1;
-    }
-}
-
-@media screen and (max-width: 1920px) {
-    body {
-        zoom: .8;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    body {
-        zoom: .85;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    body {
-        zoom: .85;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    body {
-        zoom: .7;
-    }
-}
-
-@media screen and (max-width: 1152px) and (max-height: 864px) {
-    body {
-        zoom: .8;
-    }
-}
-
-@media screen and (max-width: 1100px) and (max-height: 1100px) {
-    body {
-        zoom: .9;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    body {
-        zoom: 0.8;
-    }
-}
-
-@media screen and (max-width: 800px) and (max-height: 600px) {
-    body {
-        zoom: .55;
-    }
-} 

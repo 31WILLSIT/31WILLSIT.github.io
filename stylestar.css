@@ -42,6 +42,14 @@ img {
     justify-content: space-between;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+h2[id] {
+    scroll-margin-top: 40px;
+}
+
 .logo {
     color: #ff5A2C;
     font-size: 25px;
@@ -104,23 +112,38 @@ img {
     margin-bottom: 45px;
 }
 
+.navbar ul li a span {
+    color: #622312;
+    font-weight: bold;
+}
+
 .butons {
     display: flex;
     
 }
-.btn-1, .btn-2, .btn-3 {
+.btn-1, .btn-2, .btn- {
+    display: inline-block;
+    padding: 2px 13px;
+    border: 2px solid #ff5a2c;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.btn-3 {
     display: inline-block;
     padding: 11px 35px;
-    border: 1px solid #ff5a2c;
+    border: 2px solid #ff5a2c;
     border-radius: 25px;
     margin-right: 25px;
     font-size: 17px;
     color: #FFFFFF;
 }
-
 .btn-1:hover {
     background-color: #ff5A2C;
 }
+
 
 .popular {
     padding: 100px 0;
@@ -165,7 +188,7 @@ h2 {
 }
 
 .product-txt {
-    padding: 50px 30px;
+    padding: 20px 20px;
 }
 
 h3 {
@@ -278,8 +301,6 @@ input {
         width: 100%;
     }
     
-    
-    
 
     #menu:checked ~ .navbar {
         display: initial;
@@ -313,7 +334,7 @@ input {
     .btn-1:last-of-type {
         margin-right: 0;       
     }
-    .btn-1, .btn-2, .btn-3 {
+    .btn-1, .btn-2,  {
         display: inline-block;
         padding: 2px 13px;
         border: 2px solid #ff5a2c;
@@ -332,9 +353,23 @@ input {
         padding: 30px;
     }
 
+    .product-txt {
+        padding: 5px 5px;
+    }
+    .product-txt p {
+        font-size: 10px;
+    }
+    .product-txt h3 {
+        font-size: 13px;
+    }
+    .product-txt a {
+        font-size: 7px;
+        padding: 0px 12px ;
+    }
+
     .product-content {
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px;
+        grid-template-columns: repeat(2,1fr) ;
+        gap: 5px;
     }
 
     .product-1 img {
@@ -344,18 +379,37 @@ input {
     .contact {
         padding: 30px;
     }
+
+    .contact h3 {
+        font-size: 15px;
+    }
     form {
         flex-direction: column;
     }
     input {
         margin: 0 0 20px 0;
+        font-size: 12px;
+    }
+    ::placeholder {
+        color: #E0E0E0;
+        font-size: 12px;
+    }
+    
+    .btn-3 {
+        font-size: 14px;
     }
 
     .footer {
         flex-direction: column;
         text-align: center;
     }
+    
+    .footer ul li >a {
+        font-size: 10px;
+    }
+
     .link ul {
         margin-top: 20px;
+        font-size: 10px;
     }
 }

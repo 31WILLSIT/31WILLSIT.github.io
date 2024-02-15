@@ -147,7 +147,7 @@ h2[id] {
 .product-1 p {
     color: #FFFFFF;
     font-size: 23px;
-    text-align: right;
+    text-align: left;
     padding: 20px 20px;
 }
 
@@ -352,7 +352,7 @@ input {
     }
 
     .product p {
-        text-align: right;
+        text-align: left;
         padding: 0px 0;
         font-size: 11px;
         padding: 10px 20px;

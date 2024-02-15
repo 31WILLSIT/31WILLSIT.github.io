@@ -279,8 +279,6 @@ input {
     }
     
     
-    
-
     #menu:checked ~ .navbar {
         display: initial;
     }
@@ -313,7 +311,7 @@ input {
     .btn-1:last-of-type {
         margin-right: 0;       
     }
-    .btn-1, .btn-2, .btn-3 {
+    .btn-1 {
         display: inline-block;
         padding: 2px 13px;
         border: 2px solid #ff5a2c;
@@ -322,6 +320,8 @@ input {
         font-size: 10px;
         color: #FFFFFF;
     }
+
+
 
     .popular {
         display: none;

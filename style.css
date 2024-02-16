@@ -191,6 +191,10 @@ h3 {
     margin-right: 0;
 }
 
+.btn-2:hover {
+    background-color: #2a223a;
+}
+
 .contact {
     padding: 150px 300px;
 }

@@ -42,10 +42,43 @@ h2[id] {
     margin-bottom: 0px;
 }
 
+@keyframes aparecer{
+    0% {
+        opacity: 0%;
+        transform: translateY(100px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ocultar {
+    opacity: 0;
+}
+
+.animar {
+    animation: aparecer 1.3s;
+}
+
 .icons i {
     font-size: 20px;
+    color: #ff5A2C; 
+}
+
+.icons i:hover {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.contador_cantidad {
+    color: #ffffff;
+}
+.contadores_principal h5 {
+    display: contents;
     color: #ff5A2C;
 }
+
 
 .icons img {
     width: 100px;
@@ -56,13 +89,6 @@ h2[id] {
     justify-content: space-between;
 }
 
-.video {
-    
-    width: 200px;
-    font-size: center;
-    padding: 10px 50px;
-    
-}
 
 
 .product-content {
@@ -73,6 +99,7 @@ h2[id] {
 .product-txt {
     flex-basis: 50%;
     text-align: left ;
+    
 }
 
 .product-txt span {
@@ -87,20 +114,26 @@ h2[id] {
     -text-transform: uppercase;
 }
 
-.product-txt p {
-    font-size: 13px;
-    color: #c4c4c4;
-}
+
 .product-img {
     flex-basis: 50%;
     text-align: right;
 }
 
 .product-img img {
-    width: 120px;
+    width: 200px;
+    height: 350px;
+    padding: 20px 50px;
+    border: 1px solid #ff5A2C;
+    border-radius: 20px;
+    border-right: 100px;
+    border-left: 100px;
+    
+    
 }
 
 .btn-1 {
+    
     display: inline-block;
     padding: 0px 5px;
     border: 1px solid #ff5A2C;
@@ -108,8 +141,11 @@ h2[id] {
     color: #ffffff;
     text-decoration: none;
     margin-top: 10px;
+    
+    
 }
 
 .btn-1:hover {
     background-color: #ff5A2C;
+   
 }

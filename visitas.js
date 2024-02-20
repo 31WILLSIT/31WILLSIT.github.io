@@ -1,12 +1,12 @@
-var header = document.getElementById("Header");
+var header = document.getElementById('Header');
 
-window.addEventListener("scroll", () => {
+window.addEventListener('scroll', () => {
 
     var scroll = window.scrollY
 
-    if (scroll>10) {
-        header.VISITA.backgroundColor = "#121212"
+    if (scroll>50) {
+        header.style.backgroundColor = '#121212'
     } else {
-        header.VISITA.backgroundColor = "transparent"
+        header.style.backgroundColor = 'transparent'
     }
 })

@@ -168,6 +168,11 @@ h2 {
     padding: 20px 20px;
 }
 
+.enca p {
+    font-size: 20px;
+    
+}
+
 h3 {
     font-size: 20px;
     color: #ffffff;
@@ -324,6 +329,11 @@ input {
         margin-right: 25px;
         font-size: 10px;
         color: #FFFFFF;
+    }
+
+    .enca p {
+        font-size: 10px;
+        font-weight: bold;
     }
 
     .popular {

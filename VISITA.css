@@ -1,0 +1,69 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #1b1726;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+}
+
+.enca {
+    padding: 0px 300px;
+}
+
+.logo {
+    width: 100px;
+   
+    
+    
+}
+
+.title {
+    text-align: center;
+    color: aliceblue;
+    padding: 60px;
+    font-size: 20px;
+    
+}
+
+.img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+    background-color: beige;
+}
+
+.img {
+    
+}
+
+.imagenes {
+
+    padding: 80px 300px;
+    display: grid;
+    grid-template-columns: 
+    repeat( auto-fit,
+        minmax(220px,1fr)
+    );
+    gap: 15px;
+}
+
+win

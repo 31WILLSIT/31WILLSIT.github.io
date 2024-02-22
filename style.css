@@ -217,6 +217,10 @@ form {
     margin-top: 20px;
 }
 
+.form-label {
+    color: #ffffff;
+}
+
 input {
     padding: 18px 25px;
     background-color: #3f3456;

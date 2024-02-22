@@ -239,6 +239,10 @@ input {
     margin-right: 0;
 }
 
+.btn-3:hover {
+    background-color: #2a223a;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -259,6 +263,11 @@ input {
 .link ul li > a:hover {
     color: #ff5A2C;
 }
+
+.link ul img {
+    width: 10%;
+}
+
 
 @media(max-width:901px) {
 
